@@ -35,9 +35,11 @@ export async function Header() {
               Instead, we just use CSS to invert the color via `filter: invert(1)` based on `[data-theme="dark"]`
             */}
             <img
-              className={classes.logo}
+              // className={classes.logo}
               alt="Payload Logo"
-              src="https://raw.githubusercontent.com/payloadcms/payload/main/packages/payload/src/admin/assets/images/payload-logo-light.svg"
+              src="./logo.png"
+              height={100}
+              width={100}
             />
           </Link>
           <HeaderNav header={header} />
